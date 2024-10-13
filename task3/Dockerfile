@@ -8,6 +8,6 @@ RUN npm install
 
 COPY src/ ./
 
-EXPOSE  3032
+EXPOSE 3032
 
-RUN ["node", "main.js"]
+CMD ["node", "main.js"]
